@@ -1,0 +1,50 @@
+*** Woocommere Wishlist Member Integration Changelog ***
+
+2013.01.29 - version 2.0
+* Updated for Woocommerce 2.0
+* Backward compatiable for WC 1.x.x
+
+2013.01.11 - version 1.6
+*updated: attach random number to username if username already exists
+*updated: now uses internal API of Wishlist Member to proces the orders
+
+2012.12.04 - version 1.5.2
+ * New updater
+
+2012.09.07 - version 1.5.1
+*updated: bug fix when processing existing member
+*updated: Posturl now needs trails slash in Settings
+
+2012.08.27 - version 1.5
+
+*updated: wlmapiclass.php to version 1.2
+*added: custom field (meta) to record if WLM processing action has been done or not to prevent it being done twice (wlm_processed)
+*changed: hooks into order processing status instead of payment completed
+*changed: now uses first_name.last_name to generate username instead of email
+
+2012.07.09 - version 1.4.1
+
+*added references to used code snippets
+*confirmation email with membership login details now uses default Woocommerce email design
+
+2012.06.11 - version 1.4
+
+*added email settings options on Woocommerce Wishlist Members Setting tab. Allows for some more customization of confirmation email with membership login details.
+
+2012.05.24 - version 1.3
+
+* fixed updating existing members and processing the purchase of multiple
+  membership levels in one order
+
+2012.05.18 - version 1.2
+
+* updated code to WLM API-2
+* updated readme.txt
+* added file: wlmapiclass.php to extension
+
+
+2012.05.10 - version 1.1
+* New updater
+
+2012.02.23 - version 1.0
+* First Release
